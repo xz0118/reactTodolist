@@ -1,0 +1,52 @@
+ /*main*/
+ .todo-main {
+   margin-left: 0px;
+   border: 1px solid #ddd;
+   border-radius: 2px;
+   padding: 0px;
+ }
+
+ .todo-empty {
+   height: 40px;
+   line-height: 40px;
+   /* border: 1px solid #ddd; */
+   border-radius: 2px;
+   padding-left: 5px;
+   /* margin-top: 10px; */
+   text-align: center;
+ }
+
+ /*item*/
+ .todo-main li {
+   list-style: none;
+   height: 36px;
+   line-height: 36px;
+   padding: 0 5px;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .todo-main li label {
+   float: left;
+   cursor: pointer;
+ }
+
+ .todo-main li label li input {
+   vertical-align: middle;
+   margin-right: 6px;
+   position: relative;
+   top: -1px;
+ }
+
+ .todo-main li button {
+   float: right;
+   display: none;
+   margin-top: 3px;
+ }
+
+ .todo-main li:before {
+   content: initial;
+ }
+
+ .todo-main li:last-child {
+   border-bottom: none;
+ }

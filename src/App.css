@@ -1,0 +1,17 @@
+/* *{
+    background-color: pink;
+} */
+
+h1{
+    color: aqua;
+}
+
+p{
+    color: red;
+}
+
+.app-con{
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+}
